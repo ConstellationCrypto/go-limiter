@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sethvargo/go-limiter/internal/fasttime"
+	"github.com/ConstellationCrypto/go-limiter/internal/fasttime"
 )
 
 func TestFillRate(t *testing.T) {

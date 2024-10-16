@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sethvargo/go-limiter/httplimit"
-	"github.com/sethvargo/go-limiter/memorystore"
+	"github.com/ConstellationCrypto/go-limiter/httplimit"
+	"github.com/ConstellationCrypto/go-limiter/memorystore"
 )
 
 func TestNewMiddleware(t *testing.T) {

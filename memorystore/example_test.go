@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/sethvargo/go-limiter/memorystore"
+	"github.com/ConstellationCrypto/go-limiter/memorystore"
 )
 
 func ExampleNew() {

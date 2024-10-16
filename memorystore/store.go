@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/sethvargo/go-limiter"
-	"github.com/sethvargo/go-limiter/internal/fasttime"
+	"github.com/ConstellationCrypto/go-limiter"
+	"github.com/ConstellationCrypto/go-limiter/internal/fasttime"
 )
 
 var _ limiter.Store = (*store)(nil)

@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/sethvargo/go-limiter/noopstore"
+	"github.com/ConstellationCrypto/go-limiter/noopstore"
 )
 
 func ExampleNew() {

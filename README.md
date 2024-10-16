@@ -1,7 +1,7 @@
 # Go Rate Limiter
 
-[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/sethvargo/go-limiter)
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/sethvargo/go-limiter/test.yml?style=flat-square)](https://github.com/sethvargo/go-limiter/actions/workflows/test.yml)
+[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/ConstellationCrypto/go-limiter)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/sethvargo/go-limiter/test.yml?style=flat-square)](https://github.com/ConstellationCrypto/go-limiter/actions/workflows/test.yml)
 
 
 This package provides a rate limiter in Go (Golang), suitable for use in HTTP
@@ -138,7 +138,7 @@ arbitrary string key.
 
 Memory is the fastest store, but only works on a single container/virtual
 machine since there's no way to share the state.
-[Learn more](https://pkg.go.dev/github.com/sethvargo/go-limiter/memorystore).
+[Learn more](https://pkg.go.dev/github.com/ConstellationCrypto/go-limiter/memorystore).
 
 #### Redis
 
@@ -149,4 +149,4 @@ Redis uses Redis + Lua as a shared pool, but comes at a performance cost.
 
 Noop does no rate limiting, but still implements the interface - useful for
 testing and local development.
-[Learn more](https://pkg.go.dev/github.com/sethvargo/go-limiter/noopstore).
+[Learn more](https://pkg.go.dev/github.com/ConstellationCrypto/go-limiter/noopstore).

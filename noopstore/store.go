@@ -6,7 +6,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/sethvargo/go-limiter"
+	"github.com/ConstellationCrypto/go-limiter"
 )
 
 var _ limiter.Store = (*store)(nil)

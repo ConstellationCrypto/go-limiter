@@ -1,4 +1,4 @@
-module github.com/sethvargo/go-limiter/tools
+module github.com/ConstellationCrypto/go-limiter/tools
 
 go 1.14
 

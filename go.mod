@@ -1,5 +1,3 @@
-module github.com/sethvargo/go-limiter
+module github.com/ConstellationCrypto/go-limiter
 
-go 1.22
-
-toolchain go1.22.1
+go 1.20
